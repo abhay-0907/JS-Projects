@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI CALCULATOR</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h3> WHAT's YOUR BMI?</h3>
+            <p>
+                A Body Mass Index(BMI) measures an individual's body fat based on weight and height. It can be a
+                valuable tool for assessing the risk of developing weight-related health problems, but it may not
+                accurate for all individual. <br> So let's Start the test!
+            </p>
+        </div>
+        <div>
+            <form action="">
+                <h4> Height* </h4>
+                <p>
+                    (Please Enter your Height in CM)
+                </p>
+                <input type="number" name="" id="height"><span id="heightResult"></span>
+                <h4> Weight* </h4>
+                <p>
+                    (Please Enter your Weight in KG)
+                </p>
+                <input type="number" name="" id="weight"><span id="weightResult"></span>
+                <h4> Age* </h4>
+                <input type="number" name="" id="Age"><span id="ageResult"></span>
+                <button type="submit" class="btn">
+                    Calculate
+                </button>
+                <div class="bmi-result" id="bmi-result"></div>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
