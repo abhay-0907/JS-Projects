@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2 class="heading" > Password Generator</h2>
+            <div class="show-txt"  id="show-password">
+                
+            </div>
+            <div class="settings">
+                <div >
+                    <h4>Password Settings</h4>
+                </div>
+                <div class="setting-types">
+                    <div>
+                    <ul>
+                        <li>
+                            <input type="checkbox"  id="LowerCase">LowerCase(a-z)
+                        </li>
+                        <li>
+                            <input type="checkbox" id="UpperCase">UpperCase(A-Z)
+                        </li>
+                        <li>
+                            <input type="checkbox" id="Exclude">Exclude Duplicate
+                        </li>
+                        </ul>
+                       </div>
+                       <div>
+                        <ul>
+                        <li>
+                            <input type="checkbox" name="Numbers" id="Numbers">Numbers (0-9)
+                        </li>
+                        <li>
+                            <input type="checkbox" name="Special" id="Special-characters">Special Character(!@#$%^&*)
+                        </li>
+                        <li>
+                            <input type="checkbox" name="Include" id="Include-Spaces">Include Spaces
+                        </li>
+                    </ul>
+                       </div>
+                </div>
+            </div>
+            <div>
+                <button class="btn" id="submit-button">
+                    Generate Password
+                </button>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
