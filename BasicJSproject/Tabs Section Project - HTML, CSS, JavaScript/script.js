@@ -1,3 +1,4 @@
+
 const tabs = document.querySelectorAll(".btn button");
 const contents = document.querySelectorAll(".content .box");
 
